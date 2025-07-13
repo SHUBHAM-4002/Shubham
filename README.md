@@ -5,7 +5,7 @@
 from transformers import pipeline
 import gradio as gr
 
-# ✅ Step 3: Load GPT-2 model pipeline
+# ✅ Step 3: Load model pipeline
 generator = pipeline("text-generation", model="gpt2")
 
 # ✅ Step 4: Core Functions
